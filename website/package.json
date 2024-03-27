@@ -1,0 +1,27 @@
+{
+  "name": "learning-js",
+  "version": "0.0.1",
+  "description": "learning-basic-js ",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "webpack serve --mode=development --hot --open",
+    "watch": "npx tailwindcss -i ./src/style.css -o ./dist/index.css --watch",
+    "build": "npx webpack --config webpack.config.js && npx tailwindcss -o ./dist/index.css --minify"
+  },
+  "author": "pphatdev",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.0",
+    "tailwindcss": "^3.4.1",
+    "webpack": "^5.90.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "tsparticles": "^3.0.2"
+  }
+}
