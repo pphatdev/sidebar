@@ -5,7 +5,7 @@
 
 #### 📂 Directory 
 ```sh
-cd field-validator-js/website
+cd sidebar/website
 ```
 #### ⬇️ Install package 
 ```sh
