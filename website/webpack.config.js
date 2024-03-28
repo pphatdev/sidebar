@@ -54,7 +54,7 @@ export default {
             templateParameters: {
                 title: `Demo @sophat/sidebar`,
                 detail: 'The @sophat/sidebar project package',
-                link: `/`,
+                link: `https://sidebar.hey1010.com`,
                 cover: `/assets/home.webp`,
                 appleTouchIcon: `/assets/apple-touch-icon.png`,
                 icon16x16: `/assets/favicon-32x32.png`,
