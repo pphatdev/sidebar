@@ -52,9 +52,9 @@ export default {
             minify: true,
             inject: "body",
             templateParameters: {
-                title: `Demo field-validator-js`,
-                detail: 'The Field Validator JS (ES6) helper project package',
-                link: ``,
+                title: `Demo @sophat/sidebar`,
+                detail: 'The @sophat/sidebar project package',
+                link: `/`,
                 cover: `/assets/home.webp`,
                 appleTouchIcon: `/assets/apple-touch-icon.png`,
                 icon16x16: `/assets/favicon-32x32.png`,
