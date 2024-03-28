@@ -1,4 +1,8 @@
-# ***@sophat/sidebar***
+# Sample Sidebar
+![](https://sidebar.hey1010.com/assets/home.webp)
+
+
+## npm: ***@sophat/sidebar***
 The `@sophat/sidebar` project package build for sidebar ui supported with tailwindcss.
 
 ## ⬇️ Installation
