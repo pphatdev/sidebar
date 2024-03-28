@@ -21,6 +21,7 @@
     "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
+    "clipboard": "^2.0.11",
     "lodash": "^4.17.21",
     "tsparticles": "^3.0.2"
   }

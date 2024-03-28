@@ -6,7 +6,12 @@ module.exports = {
     ],
     darkMode: "class",
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                "ubuntu-condensed": ['"Ubuntu Condensed"', 'sans-serif'],
+                "ubuntu-mono": ['"Ubuntu Mono"', 'monospace'],
+            }
+        },
     },
     plugins: [],
 }
