@@ -3,26 +3,26 @@
 
 ## To Start Project ♻️
 
-#### Directory 📂
+#### 📂 Directory 
 ```sh
 cd field-validator-js/website
 ```
-#### Install package ⬇️
+#### ⬇️ Install package 
 ```sh
 npm install
 ```
 
-#### Starting Project 🚀
+#### 🚀 Starting Project 
 
 ```sh
 npm run start
 ```
-#### --watch style 🌈
+#### 🌈 --watch style 
 ```sh
 npm run style
 ```
 
-#### Production 🚀🌈♻️
+#### 🚀🌈♻️ Production 
 ```sh
 npm run build
 ```
