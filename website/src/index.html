@@ -41,18 +41,18 @@
 
 <body class="relative">
 
-    <div class="h-screen w-full flex flex-col gap-5 justify-center items-center">
+    <div class="flex flex-col items-center justify-center w-full h-screen gap-5">
         <div>
-            <h1 class="text-7xl font-bold">DEMO</h1>
+            <h1 class="font-bold text-7xl">DEMO</h1>
             <p class="font-medium text-slate-800">Click Buttons to show sidebar</p>
         </div>
-        <div class="flex gap-4 justify-center items-center">
-            <button type="button" title="Left" aria-label="Close Collapse Sidebar" data-sidebar-target="sidebar-left" class="flex items-center justify-center rounded-lg hover:bg-slate-50 ring-1 ring-black/10 w-8 h-8">
+        <div class="flex items-center justify-center gap-4">
+            <button type="button" aria-labelledby="sidebar-left" title="Left" aria-label="Close Collapse Sidebar" data-sidebar-target="sidebar-left" class="flex items-center justify-center w-8 h-8 rounded-lg hover:bg-slate-50 ring-1 ring-black/10">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                 </svg>
             </button>
-            <button type="button" title="Right" aria-label="Close Collapse Sidebar" data-sidebar-target="sidebar-right" class="flex items-center justify-center rounded-lg hover:bg-slate-50 ring-1 ring-black/10 w-8 h-8">
+            <button type="button" title="Right" aria-label="Close Collapse Sidebar" data-sidebar-target="sidebar-right" class="flex items-center justify-center w-8 h-8 rounded-lg hover:bg-slate-50 ring-1 ring-black/10">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                 </svg>
@@ -61,7 +61,7 @@
     </div>
 
     <div data-sidebar-backdrop="sidebar-left" data-sidebar-target="sidebar-left" class="hidden inset-0 fixed right-0 transition-opacity top-0 w-full h-full bg-black/25 z-[999]"></div>
-    <div data-sidebar="sidebar-left" data-sidebar-position="left" class="hidden justify-end fixed top-0 opacity-0 transition-all duration-500 w-0 max-w-[90%] h-full bg-white shadow-[-2px_0_20px_0_#00000022] z-[9999]">
+    <div id="sidebar-left" role="dialog" data-sidebar="sidebar-left" data-sidebar-position="left" class="hidden justify-end fixed top-0 opacity-0 transition-all duration-500 w-0 max-w-[90%] h-full bg-white shadow-[-2px_0_20px_0_#00000022] z-[9999]">
         <div class="grid content-start w-full h-full grid-cols-1">
 
             <div data-button-position="right" class="flex items-center h-12 px-2">
@@ -82,7 +82,7 @@
     </div>
 
     <div data-sidebar-backdrop="sidebar-right" data-sidebar-target="sidebar-right" class="hidden inset-0 fixed right-0 transition-opacity top-0 w-full h-full bg-black/25 z-[999]"></div>
-    <div data-sidebar="sidebar-right" data-sidebar-position="right" class="hidden justify-end fixed top-0 opacity-0 transition-all duration-500 w-0 max-w-[90%] h-full bg-white shadow-[-2px_0_20px_0_#00000022] z-[9999]">
+    <div role="dialog" data-sidebar="sidebar-right" data-sidebar-position="right" class="hidden justify-end fixed top-0 opacity-0 transition-all duration-500 w-0 max-w-[90%] h-full bg-white shadow-[-2px_0_20px_0_#00000022] z-[9999]">
         <div class="grid content-start w-full h-full grid-cols-1">
 
             <div data-button-position="left" class="flex items-center h-12 px-2">
