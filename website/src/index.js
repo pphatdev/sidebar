@@ -1,5 +1,5 @@
 import ClipboardJS from "clipboard";
-import {Sidebar} from "../../dist/index.js";
+import { Sidebar } from "@sophat/sidebar";
 
 /**
  * If position: 'left' Sidebar show up left position {buttonPosition} should be 'right' (optional),
