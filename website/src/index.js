@@ -1,5 +1,5 @@
 import ClipboardJS from "clipboard";
-import { Sidebar } from "../../src/index.js";
+import {Sidebar} from "../../dist/index.js";
 
 /**
  * If position: 'left' Sidebar show up left position {buttonPosition} should be 'right' (optional),
@@ -8,7 +8,7 @@ import { Sidebar } from "../../src/index.js";
  * @param position: 'left' | 'right'
  * @param buttonPosition: 'left' | 'right' | 'center'
  *
- * @example
+ * @default
  * new Sidebar({
  *     position: 'left',
  *     buttonPosition: 'right'

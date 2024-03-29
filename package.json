@@ -1,11 +1,31 @@
 {
-  "name": "@sophat/sidebar",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "pphatdev <leatsophat02@gmail.com>",
-  "license": "MIT"
+    "name": "@sophat/sidebar",
+    "version": "0.0.1",
+    "description": "@sophat/sidebar build for sidebar ui supported with tailwindcss",
+    "main": "./dist/index.js",
+    "type": "module",
+    "module": "./dist/index.js",
+    "scripts": {
+        "start": "tsc --watch",
+        "build": "tsc"
+    },
+    "homepage": "https://sidebar.hey1010.com",
+    "repository": {
+        "url": "https://github.com/pphatdev/sidebar"
+    },
+    "bugs": {
+        "url": "https://github.com/pphatdev/sidebar/issues"
+    },
+    "keywords": [
+        "sophat", "@sophat/sidebar", "sidebar", "ui", "tailwindcss"
+    ],
+    "maintainers": [
+        {
+            "name": "pphatdev",
+            "url": "https://github.com/pphatdev",
+            "email": "info.sophat@gmail.com"
+        }
+    ],
+    "author": "pphatdev <info.sophat@gmail.com>",
+    "license": "MIT"
 }

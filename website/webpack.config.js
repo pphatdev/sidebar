@@ -11,7 +11,6 @@ const src   = path.resolve(__dirname, "src")
 const nodeModule   = path.resolve(__dirname, "node_modules")
 
 export default {
-    devtool: "eval",
     mode: 'production',
     entry: {
         js: path.resolve(__dirname, 'src/index.js')
@@ -34,7 +33,13 @@ export default {
                     fullySpecified: false, // disable the behaviour
                 },
             },
+            { test: /\.tsx?$/, loader: "ts-loader" },
+            { test: /\.js$/, loader: "source-map-loader" },
         ],
+    },
+    devtool: "source-map",
+    resolve: {
+        extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js"],
     },
     devServer: {
         static: {
