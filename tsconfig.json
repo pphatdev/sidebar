@@ -5,5 +5,5 @@
         "declaration": true,
         "target": "es6"
     },
-    "include": ["./src/types/*"],
+    "include": ["./src/types/*", "src/index.ts"],
 }
