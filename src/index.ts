@@ -93,7 +93,10 @@ export class Sidebar {
                 if (sidebar.classList.contains("flex"))
                 {
                     sidebar.style.width = "0";
-                    Array.from(backdrops).map( (backdrop) => (( backdrop as HTMLElement ).style.opacity = "0") );
+                    Array.from(backdrops).map( (backdropElement) => {
+                        const backdrop = backdropElement as HTMLElement;
+                        backdrop.style.opacity = "0"
+                    } );
 
                     setTimeout(
                         () => {
@@ -125,15 +128,18 @@ export class Sidebar {
                 if (sidebar.classList.contains('hidden')) {
                     sidebar.classList.add('flex')
                     sidebar.classList.remove('hidden')
+                    sidebar.style.zIndex = "9999999"
 
-                    Array.from(backdrops).map(backdrop => {
+                    Array.from(backdrops).map(backdropElement => {
+                        const backdrop = backdropElement as HTMLElement
                         backdrop.classList.add('flex')
                         backdrop.classList.remove('hidden')
+                        backdrop.style.zIndex = "999"
                     })
 
                     setTimeout(
                         () => {
-                            Array.from(backdrops).map(backdrop => (( backdrop as HTMLElement ).style.opacity = "0") )
+                            Array.from(backdrops).map(backdrop => (( backdrop as HTMLElement ).style.opacity = "1") )
                             sidebar.style.opacity = "1";
                             sidebar.style.width = '18rem'
                         }, 200
