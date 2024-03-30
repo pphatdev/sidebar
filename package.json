@@ -1,6 +1,6 @@
 {
     "name": "@sophat/sidebar",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "@sophat/sidebar build for sidebar ui supported with tailwindcss",
     "main": "./dist/index.js",
     "type": "module",
