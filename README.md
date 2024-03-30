@@ -1,5 +1,12 @@
 # Sample Sidebar
-![](https://sidebar.hey1010.com/assets/home.webp)
+<p align="center">
+    <img src="https://nodei.co/npm/@sophat/sidebar.png?downloads=true&downloadRank=true&stars=true"/>
+    <br/>
+    <img src="https://img.shields.io/npm/dw/%40sophat%2Fsidebar?style=flat-square&label=Downloads&labelColor=d42932&color=%231fa8e0">
+    <img src="https://img.shields.io/npm/v/%40sophat%2Fsidebar?style=flat-square&label=Versions&labelColor=d42932&color=%231fa8e0">
+    <img src="https://img.shields.io/bundlephobia/min/%40sophat%2Fsidebar?style=flat-square&label=Size&labelColor=d42932&color=%231fa8e0">
+    <img src="https://img.shields.io/github/stars/turbotechlabs?style=flat-square&label=Star&labelColor=d42932&color=%231fa8e0">
+</p>
 
 ## 📐 DEMO
 [Demo](https://sidebar.hey1010.com)
