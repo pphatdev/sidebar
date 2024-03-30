@@ -4,3 +4,5 @@ website/node_modules/
 website/dist/
 website/
 demo
+demo/*
+demo/!.gitignore
